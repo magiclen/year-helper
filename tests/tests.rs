@@ -35,7 +35,11 @@ fn test_get_days_in_month() {
     ];
 
     for (year, month, expect) in cases {
-        assert_eq!(expect, year_helper::get_days_in_month(year_helper::is_leap_year(year), month));
+        assert_eq!(expect, year_helper::get_days_in_month(year, month));
+        assert_eq!(
+            expect,
+            year_helper::get_days_in_month_2(year_helper::is_leap_year(year), month)
+        );
     }
 }
 
@@ -45,6 +49,7 @@ fn test_get_days_in_year() {
         [(1999, 365), (2000, 366), (2001, 365), (2002, 365), (2003, 365), (2004, 366), (2100, 365)];
 
     for (year, expect) in cases {
-        assert_eq!(expect, year_helper::get_days_in_year(year_helper::is_leap_year(year)));
+        assert_eq!(expect, year_helper::get_days_in_year(year));
+        assert_eq!(expect, year_helper::get_days_in_year_2(year_helper::is_leap_year(year)));
     }
 }

@@ -1,12 +1,12 @@
 [package]
 name = "year-helper"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Magic Len <len@magiclen.org>"]
 edition = "2021"
 repository = "https://github.com/magiclen/year-helper"
 homepage = "https://magiclen.org/year-helper"
 keywords = ["leap", "year", "is_leap_year", "get_days_in_month"]
-categories = ["no-std"]
+categories = ["no-std", "date-and-time"]
 description = "This library provides some useful functions to deal with years."
 readme = "README.md"
 license = "MIT"

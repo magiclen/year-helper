@@ -14,7 +14,7 @@ let leap_year = year_helper::is_leap_year(year);
 let days_in_month = year_helper::get_days_in_month(year, month);
 let days_in_year = year_helper::get_days_in_year(year);
 
-// or use the following functions if the year has been determined where it is a leap year
+// or use the following functions if the year has been determined whether it is a leap year
 let days_in_month = year_helper::get_days_in_month_2(leap_year, month);
 let days_in_year = year_helper::get_days_in_year_2(leap_year);
 ```

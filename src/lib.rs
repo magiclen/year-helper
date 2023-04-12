@@ -47,7 +47,7 @@ pub const fn get_days_in_month(year: i32, month: u8) -> Option<u8> {
             } else {
                 Some(28)
             }
-        }
+        },
         _ => None,
     }
 }
@@ -66,7 +66,7 @@ pub const fn get_days_in_month_2(leap_year: bool, month: u8) -> Option<u8> {
             } else {
                 Some(28)
             }
-        }
+        },
         _ => None,
     }
 }

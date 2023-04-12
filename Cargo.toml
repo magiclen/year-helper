@@ -3,6 +3,7 @@ name = "year-helper"
 version = "0.2.1"
 authors = ["Magic Len <len@magiclen.org>"]
 edition = "2021"
+rust-version = "1.56"
 repository = "https://github.com/magiclen/year-helper"
 homepage = "https://magiclen.org/year-helper"
 keywords = ["leap", "year", "is_leap_year", "get_days_in_month"]
